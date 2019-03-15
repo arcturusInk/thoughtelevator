@@ -1,0 +1,62 @@
+body{
+	/*background-image: url("lines-background-opacity.jpg");
+    background-attachment: fixed;*/
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+canvas {
+	position:fixed;
+	z-index: -1;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	top: 10%;
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+}
+
+.currentPage{
+    background-color: black;
+	color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+#name{
+	font-size: 22px;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-size: 14px;
+	color: #666666;
+	padding: 10px;
+}
+
+.container{
+	width: 50%;
+	margin: auto;
+	padding-top: 7%;
+	text-align: center;
+	overflow: auto;
+}
+
+img{
+	cursor: pointer;
+	margin-bottom: 3%;
+}
+
+img:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
